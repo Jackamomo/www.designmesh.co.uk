@@ -1,0 +1,297 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background:none;
+	padding:0;
+	margin:0;
+	-webkit-text-size-adjust:none;
+}
+.wrap {
+	background-color:#999;
+	min-width:310px;
+	padding:0 5px 0 5px;
+	margin:0;
+}
+.content {
+	height:auto;
+	margin-top:0;
+}
+
+#clip .abstract {
+	width:100%;
+	margin:10px 0 0 0;
+}
+
+p {
+	margin:5px 0 0 0;
+	padding-bottom:10px;
+}
+
+.content p {
+	float:left;
+	clear:left;
+}
+
+a {
+	text-decoration:none;
+}
+h2 {
+	font-size:12px;
+	margin:10px 0 5px 0;
+}
+
+.content ul {
+	margin:0 0 10px;
+}
+
+#header-wrap {
+	margin-right:none;
+	min-width:300px;
+}
+#header {
+	min-width:300px;
+}
+#header .head-right {
+}
+#logo {
+	top:1px;
+	right:1px;
+	height:80px;
+	background:url(../images/logo-small.jpg) no-repeat;
+}
+ul#menu {
+	padding:0; 
+	margin:0 0 5px;
+	min-width:300px;
+}
+
+ul#menu li {
+	float:left;
+}
+
+ul#menu li a {
+	font-size:0.79em;
+	padding:0 6px;
+}
+
+#home .video,
+#clip._444 .video,
+#clip._640 .video,
+#corporate .video,
+#medical .video,
+#education .video {
+	width:100%;
+	margin:10px 0 0 0;
+	padding:0;
+}
+
+.video {
+	height:175px;
+	float:left;
+}
+
+.video a {
+	display:none;
+}
+
+.video object {
+	height:150px;
+}
+
+img.article {
+	max-width:250px;
+}
+
+#home img.article,
+#corporate img.article,
+#medical img.article,
+#education img.article {
+	float:left;
+	clear:both;
+}
+
+#home .abstract P {
+	margin-bottom:10px;
+}
+
+#home .abstract p {
+	font-size:18px;
+	color:#555;
+}
+
+#home .content p,
+#corporate .content p,
+#medical .content p,
+#education img.article p {
+	float:left;
+}
+
+.abstract {
+	width:100%;
+	float:left;
+	margin-top:10px;
+}
+.sector-menu {
+	float:left;
+	clear:both;
+	margin-top:10px;
+}
+.col-1,
+.col-2,
+.col-3,
+#working .col-1,
+#working .col-2,
+#testimonials .col-1,
+#testimonials .col-2,
+#testimonials .col-3 {
+	width:100%;
+	margin:0 0 10px 0;
+	float:left;
+}
+
+#services .col-3 {
+	float:left;
+	width:100%;
+}
+
+#about .col-1,
+#about .col-2,
+#working .col-1,
+#working .col-2 {
+	width:100%;
+	overflow:hidden;
+}
+
+ul#gallery {
+	width:90%;
+	overflow:hidden;
+}
+
+#footer {
+	width:100%;
+	margin:0;
+	padding:0;
+	padding-bottom:20px;
+	margin-top:10px;
+	margin-left:-5px;
+	padding-right:10px;
+	padding-top:5px;
+	background-position:bottom;
+	height:auto;
+
+}
+
+#footer .column {
+	width:auto;
+	padding:0 20px 0 0;
+	margin:10px 0 0 10px;
+	height:50px;
+	border:solid 1 px #fff;
+	border-width:0 0 1px;
+}
+
+#footer .column a {
+	text-decoration:none;
+	margin-bottom:3px;
+	font-size:1em;
+}
+
+p.foot {
+	width:100%;
+	border-bottom:none;
+}
+
+#clips .cats a {
+}
+
+#clips .cats {
+	margin-bottom:0;
+	width:100%;
+}
+
+/* override medium.css */
+
+.abstract {
+	margin-right:none;
+	width:300px;
+}
+
+#home img.article,
+#corporate img.article,
+#medical img.article,
+#education img.article{
+	float:left;
+}
+
+#columns {
+	border-top:none;
+	width:100%;
+}
+
+#education .col-1,
+#medical .col-1,
+#corporate .col-1,
+#education .col-2,
+#medical .col-2,
+#corporate .col-2,
+#education .col-3,
+#medical .col-3,
+#corporate .col-3 {
+	width:100%;
+	margin:0 0 10px 0;
+	float:left;
+	margin-top:none;
+}
+
+ul.sectors li {
+	margin-bottom:5px;
+}
+
+.quicktime img {
+	display:block;
+	z-index:0;
+}
+
+.video a.button {
+	display:block;
+	z-index:1;
+}
+
+.video .quicktime a.button {
+	position: absolute;
+	top:145px;
+	left:170px;
+	background:none;
+	width:144px;
+	height:35px;
+	padding:0;
+	margin:0;
+}
+
+.video .quicktime a.button img {
+	width:75%;
+	height:75%;
+}
+
+.quicktime {
+	position:relative;
+	background-repeat:no-repeat;
+	background-position:center top;
+	height:100px;
+	float:left;
+}
+
+.quicktime img {
+	max-width:300px;
+	float:left;
+}
+
+.quicktime object {
+	height:170px;
+	width:300px;
+	float:left;
+}
+
+ul#menu li a.select {
+	background-color:#050e52;
+	background-image:url(../images/menu-bg.gif) top left no-repeat;
+}

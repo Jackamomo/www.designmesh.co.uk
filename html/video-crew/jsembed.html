@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jsembed</title>
+<link href="css/quicktime.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.quicktime .button
+{
+	text-decoration: none;
+	outline: none;
+	position: relative;
+	top: 50%;
+}
+
+.standard
+{
+	background-color: rgb(20,20,20);
+	font-size: 1.25em;
+	color: white;
+	zoom: 100%;
+	padding: .5em 1em;
+	opacity: .8;
+	-moz-opacity: .8;
+	-webkit-opacity: .8;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	border-radius: 1em;
+	border: none;
+	font-family: Arial, sans-serif;
+}
+
+.quicktime
+{
+	position:relative;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+</style>
+<script src="js/quicktime.js" language="JavaScript" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <div class="video">
+        <div class="quicktime" style="background-image: url(images/holding-home.jpg); width:640px; height: 376px;">
+            <a class="button" href="video/video-crew-medical.m4v">
+            <img class="standard" src="images/play-button.jpg" alt="Click to play"></a>
+        </div>
+	</div>
+
+    <div style="background-image: url(images/holding-home.jpg); width: 640px; height: 288px; margin: 0px auto;" class="quicktime">
+    <a style="top: 104px;" class="button" href="video/video-crew-medical.m4v">
+    <img src="images/play-button.jpg" class="standard" alt="Click to play"></a>
+    </div>
+
+</body>
+</html>

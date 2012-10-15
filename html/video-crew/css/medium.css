@@ -1,0 +1,40 @@
+.abstract {
+	margin-right:20px;
+	width:360px;
+}
+
+#home #img-1,
+#corporate #img-1,
+#medical #img-1,
+#education #img-1 {
+	float:left;
+}
+
+#columns {
+	border-top:2px dotted #ccc;
+	width:640px;
+}
+
+#columns div:last-child {
+	margin-right:0;
+}
+
+#education .col-1,
+#medical .col-1,
+#corporate .col-1,
+#education .col-2,
+#medical .col-2,
+#corporate .col-2,
+#education .col-3,
+#medical .col-3,
+#corporate .col-3 {
+	width:310px;
+	margin:0 20px 10px 0;
+	margin-top:20px;
+}
+
+
+#services .col-3 {
+	float:left;
+	clear:both;
+}

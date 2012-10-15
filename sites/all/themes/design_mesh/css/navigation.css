@@ -1,0 +1,169 @@
+/**
+ * @file
+ * Navigation Styling
+ */
+
+
+/*
+ * The active item in a Drupal menu
+ */
+li a.active {
+  color: #000;
+}
+
+/*
+ * Navigation bar
+ */
+#navigation {
+  /* overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
+  float:left;
+}
+
+#navigation ul.links, /* Main menu and secondary menu links */
+#navigation .content ul /* Menu block links */ {
+  margin: 0;
+  padding: 0;
+  text-align: left; /* LTR */
+}
+
+#navigation ul.links li, /* A simple method to get navigation links to appear in one line. */
+#navigation .content li {
+  float: left; /* LTR */
+  padding: 0 10px 0 0; /* LTR */
+}
+
+.region-navigation {
+}
+
+/*
+ * Main menu and Secondary menu links
+ */
+#main-menu {
+}
+
+#secondary-menu {
+  float: right;
+  display:none;
+}
+
+/*
+ * Menu blocks
+ */
+.block-menu {
+}
+
+/*
+ * "Menu block" blocks
+ *
+ * Drupal core has limited ways in which it can display its menus. To get around
+ * these limitations, see http://drupal.org/project/menu_block
+ */
+.block-menu-block {
+}
+
+/*
+*
+*
+*
+* Top menu
+*
+*
+*
+* */
+#block-menu-menu-top-menu {
+  float:left;
+  width:auto;
+  padding-bottom:15px;
+  width:100%;
+  background:url(../images/dotted-rule.gif) repeat-x bottom;
+}
+
+#block-menu-menu-top-menu .content {
+}
+
+#block-menu-menu-top-menu ul.menu {
+  float:left;
+  list-style-type:none;
+  padding:0;
+  margin:43px 0 25px;
+  text-decoration:none;
+  width:auto;
+}
+
+#block-menu-menu-top-menu ul.menu li,
+#block-menu-menu-top-menu ul.menu li.leaf {
+  float:left;
+  margin-right:1em;
+  list-style-type:none;
+  list-style-image:none;
+}
+
+#block-menu-menu-top-menu ul.menu li:last-child {
+  margin-right:0;  
+}
+
+.front #block-menu-menu-top-menu ul.menu a {
+  letter-spacing: -.05em;
+  color:#555;
+}
+
+#block-menu-menu-top-menu ul.menu a {
+  text-decoration:none;
+  color:#999;
+  font-family:helvetica, sans-serif;
+  font-size:1.5em;
+  font-weight:bold;
+  letter-spacing: -.025em;
+  text-transform:lowercase;
+}
+
+#block-menu-menu-top-menu ul.menu a.active,
+#block-menu-menu-top-menu ul.menu a:hover {
+  color:#fb3289;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+}
+
+.views-field-field-thumb-big a {
+  border:9px;  
+}
+
+ul.menu li.leaf {
+  list-style:none;
+}
+
+.region-sidebar-first ul.menu {
+  margin:0;
+  padding:0;
+}
+
+.region-sidebar-first ul.menu a {
+  color:#d9d9d9;
+  letter-spacing:-.05em;
+  line-height:1.3em;
+}
+
+.region-sidebar-first ul.menu a:hover {
+  color:#fb3289;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+}
+
+.block-views-tags-block {
+  font-size:.85em; 
+}
+
+.region-sidebar-first .block .content ul li {
+  padding-left:2px;
+  line-height:1.3em;
+  text-transform:lowercase;
+}
+
+.region-footer .block .content ul li a,
+.region-sidebar-first .block .content ul li a {
+  color:#bcbcbc;
+}
+
+

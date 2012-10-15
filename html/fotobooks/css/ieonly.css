@@ -1,0 +1,68 @@
+h1 {
+	display:inline;
+}
+
+#home .box1 a,
+#home .box2 a {
+	margin-top:0px;
+	height:45px;
+}
+
+#library #content,
+#design #content {
+	width:725px;
+	height:530px;
+	clear:left;
+}
+
+#head {
+	width:758px;
+}
+
+#library .item h3 {
+	line-height:1em;
+}
+
+#library .item p {
+	line-height:1em;
+	margin:3px 10px 10px 0px; 
+}
+
+#library .item {
+	margin-bottom:10px;
+}
+
+#library .item a{
+	margin:3px;
+}
+
+* html #design a.back {
+	margin-top:0;
+}
+
+#design #colour-picker .one,
+#design #colour-picker .two,
+#design #colour-picker .three {
+	display:inline
+}
+
+#select .box-photo-inner,
+#select .box-photo-selected .box-photo-inner {
+	overflow:hidden;
+}
+
+#select #choose-album-inner {
+	display:inline;
+}
+
+#select form label {
+	width:180px;
+}
+
+#build #box {
+	display:inline;
+}
+
+#design .slider {
+	display:inline;
+}

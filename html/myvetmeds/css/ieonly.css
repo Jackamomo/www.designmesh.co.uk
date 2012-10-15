@@ -1,0 +1,62 @@
+#wrap {
+	overflow:none;
+	clear:both;
+}
+
+#header form {
+	position:relative;
+	padding-left:60px;
+}
+
+#header form label {
+	position:absolute;
+	top:7px;
+	left:-10px;
+}
+
+#header form input#searchfield  {
+	padding:7px 10px 7px;
+}
+
+#header form input#searchbutton {
+	padding-top:100px;
+}
+
+#header #basket {
+	display:inline;
+}
+
+ul#mainnav li {
+	display:inline;
+}
+
+#header #minicart {
+	position: absolute
+}
+
+#mainarea {
+	display:inline;
+}
+
+#footer {
+	display:inline;
+}
+
+#whats-popular ul {
+	display:inline;
+	clear:left;
+}
+
+#whats-popular li {
+	display:inline;
+}
+
+#whats-popular li a {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+ul#subnav li a:hover {
+	background:none;
+}

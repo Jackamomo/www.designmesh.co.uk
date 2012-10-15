@@ -1,0 +1,21 @@
+body {
+  background:url(../images/background.jpg) no-repeat 50% 0;
+}
+
+#ie-message {
+  margin:0 auto;
+  width:770px;
+  padding:10px 15px 0;
+  background:#f38;
+  color:#fff;
+}
+
+
+#ie-message a {
+  color:#fff;
+  text-decoration:underline;
+}
+
+#ie-message a:hover {
+  color:#000;
+}

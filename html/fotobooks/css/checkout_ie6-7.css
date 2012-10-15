@@ -1,0 +1,30 @@
+#checkout #box {
+	display:inline;
+}
+
+#checkout .cell {
+	margin-botom:0;
+	padding-bottom:0;
+	height:22px;
+}
+
+#checkout .items .cell.total {
+	width:86px;
+	padding-left:0;
+}
+
+#checkout #shipping .form-add {
+	width:691px;
+}
+
+#checkout #shipping .left,
+#checkout #shipping .right {
+	display:inline;
+}
+
+#checkout #shipping .form-add input {
+}
+
+#checkout #shipping .left,
+#checkout #shipping .right {
+}
