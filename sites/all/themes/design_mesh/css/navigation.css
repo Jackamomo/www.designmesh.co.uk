@@ -139,9 +139,6 @@ ul.menu li.leaf {
 }
 
 .region-sidebar-first ul.menu a {
-  color:#d9d9d9;
-  letter-spacing:-.05em;
-  line-height:1.3em;
 }
 
 .region-sidebar-first ul.menu a:hover {
@@ -159,6 +156,9 @@ ul.menu li.leaf {
   padding-left:2px;
   line-height:1.3em;
   text-transform:lowercase;
+  color:#d9d9d9;
+  letter-spacing:-.05em;
+  line-height:1.3em;
 }
 
 .region-footer .block .content ul li a,

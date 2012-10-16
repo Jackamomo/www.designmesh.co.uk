@@ -1011,6 +1011,7 @@ ul.links li {
 .page-taxonomy-term .region-header .content p /* category pages */ {
   width:670px;
   margin:15px 0;
+  color:#bbb;
 }
 
 .page-views #block-system-main /* "Main page content" block */ {
