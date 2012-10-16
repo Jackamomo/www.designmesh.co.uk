@@ -163,7 +163,9 @@ ul.menu li.leaf {
 
 .region-footer .block .content ul li a,
 .region-sidebar-first .block .content ul li a {
-  color:#bcbcbc;
 }
 
-
+.region-footer .block .content ul li a:hover,
+.region-sidebar-first .block .content ul li a:hover {
+  text-decoration:underline;
+}
