@@ -138,17 +138,6 @@ body {
   margin:0;
 }
 
-.front #block-menu-menu-top-menu ul.menu {
-  /* background:url(../images/home-menu-shadow.jpg) no-repeat bottom;
-  border-bottom:2px solid #f38;
-  padding-bottom:5px;
-  margin-bottom:12px; */
-  padding-top:30px;
-  margin-bottom:0;
-  padding-left:0;
-  float:right;
-}
-
 /* intro icon lock */
 #block-block-1 {
   background:url(../images/dotted-rule.gif) repeat-x 100% 0;
@@ -235,7 +224,7 @@ li.intro-icon-4 {
 #block-block-2 ul {
   float:left;
   width:270px;
-  margin-top:1.75em;
+  margin-top:2.25em;
 }
 
 #block-block-2 li  {
@@ -378,7 +367,7 @@ li.intro-icon-4 {
   font-size:1.65em;
   line-height:1.25em;
   color:#aaa !important;
-  margin-top:15px !important;
+  margin-top:10px;
 }
 
 #block-views-hero-block {
@@ -399,7 +388,7 @@ li.intro-icon-4 {
   float:left;
   width:100%;
   margin-top:35px;
-  margin-bottom:15px;
+  margin-bottom:0;
 }
 
 #block-block-12 h2 {
@@ -507,49 +496,6 @@ li.intro-icon-4 {
   margin-bottom:15px;
 }
 
-/* main menu home */
-.not-front #block-menu-menu-top-menu {
-  width:auto;
-  float:left;
-  margin-bottom:0;
-  padding-bottom:0;
-  border-bottom:none;
-  background:none;
-}
-
-.not-front #block-menu-menu-top-menu .content {
-  /* cancel intro content styling */
-  border-bottom:none;
-  padding-bottom:0;
-  margin-bottom:0;
-}
-
-.not-front #block-menu-menu-top-menu ul.menu {
-  border:none !important;
-  margin:0 0 0 4px;
-  padding-bottom:0;
-  padding-top:25px;
-  font-size:.6em;
-}
-
-.not-front #block-menu-menu-top-menu ul.menu li {
-  margin-right:.75em !important;
-  text-align:right;
-}
-.not-front #block-menu-menu-top-menu ul.menu a {
-  font-size:1.8em;
-  letter-spacing:-.05em;
-  text-transform:lowercase;
-  font-weight:bold;
-  color:#858585;
-  font-family:helvetica;
-}
-
-.not-front #block-menu-menu-top-menu ul.menu a:hover,
-.not-front #block-menu-menu-top-menu ul.menu a.active-trail {
-  color:#fb3289;
-}
-
 /*
  *
  *
@@ -582,13 +528,6 @@ li.intro-icon-4 {
 
 .not-front.page-node #site-name a {
   margin:0;
-}
-
-.not-front.page-node #block-menu-menu-top-menu ul.menu {
-  margin:0;
-  padding:0 0 1em;
-  background:0;
-  background:url(../images/dotted-rule.gif) repeat-x bottom;
 }
 
 /* lowercase logo */
@@ -1000,7 +939,7 @@ ul.links li {
 .page-taxonomy-term .region-header .content p /* category pages */ {
   font-size:1.5em;
   line-height:1.25em;
-  color:#d8d8d8;
+  color:#999;
   letter-spacing: -.05em;
 }
 
@@ -1447,9 +1386,10 @@ ul.links li {
  * Page bottom
  */
 .bottom-rule {
-  border-top:1px solid #ccc;
   width:100%;
   float:left;
+  background: url(../images/dotted-rule.gif) repeat-x 0 0;
+  height:1px;
 }
 
 .region-bottom {
