@@ -223,11 +223,8 @@ ul.menu li.leaf {
 }
 
 .region-sidebar-first ul.menu a {
-<<<<<<< HEAD
-=======
   letter-spacing:-.05em;
   line-height:1.3em;
->>>>>>> f7c1921f9347c094d694ebd950ef0d9dc34d6df8
 }
 
 .region-sidebar-first ul.menu a:hover {
@@ -245,9 +242,6 @@ ul.menu li.leaf {
   padding-left:2px;
   line-height:1.3em;
   text-transform:lowercase;
-  color:#d9d9d9;
-  letter-spacing:-.05em;
-  line-height:1.3em;
 }
 
 .region-footer .block .content ul li a,
