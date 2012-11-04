@@ -175,9 +175,9 @@
   </div></div><!-- /#main, /#main-wrapper -->
   
   <div class="bottom-rule"></div>
+  <div id="preload-images"></div>
   
   <?php print render($page['footer']); ?>
 
 </div></div><!-- /#page, /#page-wrapper -->
-
 <?php print render($page['bottom']); ?>

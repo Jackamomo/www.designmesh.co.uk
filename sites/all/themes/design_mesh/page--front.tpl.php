@@ -103,7 +103,7 @@
       </div><!-- /#name-and-slogan -->
     <?php endif; ?>
       
-    <!-- <div class="head-right"><?php //print render($page['head_right']); ?></div> -->
+   <div class="head-right"><?php print render($page['head_right']); ?></div>
       
     <div id="header-home-pic"></div>
 
@@ -174,6 +174,7 @@
   </div></div><!-- /#main, /#main-wrapper -->
   
   <div class="bottom-rule"></div>
+  <div id="preload-images"></div>
 
   <?php print render($page['footer']); ?>
 

@@ -51,7 +51,7 @@
   <link rel="image_src" href="http://www.designmesh.co.uk/sites/all/themes/design_mesh/images/logo-lower-big.jpg" / >
   <link rel="image_src" href="http://www.designmesh.co.uk/sites/all/themes/design_mesh/images/home-crest.jpg" / >
   <link rel="image_src" href="http://www.designmesh.co.uk/sites/all/themes/design_mesh/images/footer-circle-logo-pink.png" / >
-
+  <meta property="og:image" content="http://www.designmesh.co.uk/sites/all/themes/design_mesh/images/home-crest.jpg" />
   <?php print $styles; ?>
   <?php print $scripts; ?>
 </head>

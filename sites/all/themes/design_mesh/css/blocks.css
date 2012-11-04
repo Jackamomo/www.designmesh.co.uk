@@ -37,11 +37,11 @@ h2.block-title /* Block title */ {
 }
 
 .front #header h2.block-title {
-  margin:.5em 0 0;
+  margin:0 0 0;
   padding:.2em 0 .25em;
   font-size:2em;
   border:none;
-  color:#444;
+  color:#333;
   font-weight:normal;
 }
 
@@ -58,14 +58,6 @@ h2.block-title /* Block title */ {
   list-style-type:none;
   margin:0;
   padding:0;
-}
-
-#content .content ul {
-  padding-left:5px;
-  position:relative;
-  width:100%;
-  float:left;
-  margin-bottom:1.5em;
 }
 
 #block-aggregator-category-1 /* Block for the latest news items in the first category */ {
@@ -166,6 +158,7 @@ h2.block-title /* Block title */ {
 #block-views-hero-block {
   float:left;
   margin:2px 0 15px;
+  padding:0 10px;
 }
 
 .view-hero {
@@ -180,8 +173,12 @@ h2.block-title /* Block title */ {
   width:251px;
   height:162px;
   position:relative;
-  margin:15px 12px 15px 12px;
+  margin:15px 2px 15px 10px;
   border:none;
+}
+
+#block-views-hero-block .jcarousel-skin-default .jcarousel-clip-horizontal {
+  width:760px;
 }
 
 #block-views-hero-block .jcarousel-skin-default .jcarousel-item img {
@@ -190,11 +187,11 @@ h2.block-title /* Block title */ {
 
 .jcarousel-skin-default .jcarousel-item:hover {
   border-color:#fff;
-  box-shadow: 0px 0px 20px rgba(100, 100, 100, 0.5)
+  /* box-shadow: 0px 0px 20px rgba(100, 100, 100, 0.5) */
 }
 
 .jcarousel-skin-default .jcarousel-clip-horizontal {
-  width:800px;
+  width:775px;
   position:relative;
   padding:20px 20px 20px;
   margin:-20px -20px -40px;
@@ -206,9 +203,10 @@ h2.block-title /* Block title */ {
 }
 
 .jcarousel-skin-default .jcarousel-container-horizontal {
-  width:800px;
+  width:780px;
   padding:0;
   height:auto;
+  margin:0;
 }
 
 .jcarousel-skin-default .jcarousel-navigation {
@@ -218,7 +216,7 @@ h2.block-title /* Block title */ {
 .jcarousel-skin-default .jcarousel-next-horizontal {
   position: absolute;
   top: 90px;
-  right: -50px;
+  right: -40px;
   background:url(../images/big-arrow-right.gif) no-repeat;
   width:27px;
   height:27px;
@@ -261,7 +259,7 @@ ul.jcarousel-view--hero--block {
   padding-bottom:10px;
   padding-top:13px;
   padding-left:13px;
-  padding-right:40px;
+  padding-right:30px;
   width:190px;
   height:121px;
   text-decoration:none;
@@ -299,9 +297,13 @@ ul.jcarousel-view--hero--block {
 
 #block-views-thumbnails-block {
   float:left;
-  padding:10px 0 30px;
+  padding:20px 0 30px;
   width:100%;
   background:#fff;
+}
+
+#block-views-thumbnails-block h2 {
+  padding-left:30px;
 }
 
 #block-views-thumbnails-block .jcarousel-item {
@@ -342,13 +344,14 @@ ul.jcarousel-view--hero--block {
 }
 
 #block-views-thumbnails-block .jcarousel-skin-default {
+  margin-left:35px;
 }
 
 #block-views-thumbnails-block .jcarousel-skin-default .jcarousel-item {
   width:78px;
   height:78px;
   margin:0;
-  margin-right:25px;
+  margin-right:21px;
   border:none;
 }
 

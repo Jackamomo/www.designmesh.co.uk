@@ -161,7 +161,7 @@ h2 {
 }
 
 .page-node #content h2 {
-  border-top:1px solid #f38;
+  border-top:1px solid #333;
   padding:.55em .1em 0;
   margin: 1em 0 .75em; /* Equivalent to 1.5em in the page's base font: 1.5 / 1.5 = 1em */
   color:#555;
@@ -253,6 +253,16 @@ ul ul ul ul { list-style-type: circle; }
 ol          { list-style-type: decimal; }
 ol ol       { list-style-type: lower-alpha; }
 ol ol ol    { list-style-type: decimal; }
+
+#content .content ul {
+  padding-left:10px;
+  position:relative;
+  margin-bottom:1.5em;
+}
+
+#content .content ul ul {
+  margin-bottom:.5em;
+}
 
 dl {
 }
