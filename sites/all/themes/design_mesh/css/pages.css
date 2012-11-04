@@ -515,13 +515,14 @@ li.intro-icon-4 {
 }
 
 #block-block-11 .feature-box .text-box a {
-  background:url(../images/lil-arrow-hover.png) no-repeat 100% 60%;
+  color:#333;
+  background:url(../images/lil-arrow.png) no-repeat 100% 60%;
   padding-right:10px;
 }
 
 #block-block-11 .feature-box .text-box a:hover {
-  color:#000;
-  background-image:url(../images/lil-arrow.png);
+  background-image:url(../images/lil-arrow-hover.png);
+  color:#f38;
 }
 
 #block-block-11 .feature-box .text-box h3 {
