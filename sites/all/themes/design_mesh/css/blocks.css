@@ -3,7 +3,7 @@
  * Block Styling
  */
 
-
+/* test */
 .block /* Block wrapper */ {
   margin-bottom:15px;
   float:left;
@@ -51,7 +51,6 @@ h2.block-title /* Block title */ {
 
 .block .content /* Block's content wrapper */ {
   float:left;
-  width:100%;
 }
 
 .block .content ul {
@@ -216,7 +215,7 @@ h2.block-title /* Block title */ {
 .jcarousel-skin-default .jcarousel-next-horizontal {
   position: absolute;
   top: 90px;
-  right: -40px;
+  right: -60px;
   background:url(../images/big-arrow-right.gif) no-repeat;
   width:27px;
   height:27px;
@@ -229,10 +228,18 @@ h2.block-title /* Block title */ {
 .jcarousel-skin-default .jcarousel-prev-horizontal {
   position: absolute;
   top: 90px;
-  left: -50px;
+  left: -60px;
   background:url(../images/big-arrow-left.gif) no-repeat;
   width:27px;
   height:27px;
+}
+
+.jcarousel-skin-default .jcarousel-next-horizontal {
+  right:-92px;
+}
+
+.jcarousel-skin-default .jcarousel-prev-horizontal {
+  left:-92px;
 }
 
 .jcarousel-skin-default .jcarousel-prev-horizontal:hover {
@@ -369,7 +376,7 @@ ul.jcarousel-view--hero--block {
 
 #block-views-thumbnails-block .jcarousel-next,
 #block-views-thumbnails-block .jcarousel-prev {
-  display:none;
+  top:24px;
 }
 
 #block-views-thumbnails-block .jcarousel-skin-default .jcarousel-clip-horizontal {

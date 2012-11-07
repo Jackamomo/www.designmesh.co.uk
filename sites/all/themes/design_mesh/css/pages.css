@@ -838,7 +838,7 @@ ul#main-links li {
   padding-right:110px;
   font-size:2.2em;
   letter-spacing:-.05em;
-  color:#555;
+  color:#333;
 }
 
 .no-sidebars #content {
@@ -1252,6 +1252,32 @@ ul.links li {
  *
  */
 
+.not-front.page-taxonomy-term .node .content {
+  position:absolute;
+  top:0;
+  left:0;
+  width:252px;
+  height:162px;
+}
+
+.not-front.page-taxonomy-term .node:hover {}
+
+.not-front.page-taxonomy-term .node img {
+  border:#f1f1f1 solid 9px !important;
+  z-index:0;
+}
+.not-front.page-taxonomy-term .node a img:hover {
+  border-color:#f38 !important;
+  z-index:1;
+}
+
+.not-front.page-taxonomy-term .node:hover img {
+}
+
+.not-front.page-taxonomy-term #content .node {
+  position:relative;
+}
+
 .not-front.page-taxonomy-term.section-skills #content #block-system-main {
 }
 
@@ -1260,10 +1286,66 @@ ul.links li {
 }
 
 .page-taxonomy-term.section-skills #content .content p /* skills pages */ {
-  font-size:1.2em;
+  font-size:1.1em;
   line-height:1.4em;
   color:#888;
   margin-left:10px;
+}
+
+/* thumbnails */
+/*
+.page-taxonomy .node:hover img {
+  box-shadow: 0px 0px 20px rgba(100, 100, 100, 0.5)
+}
+*/
+
+/* floated nodes 
+.page-taxonomy h2.node-title a {
+  padding:0 30px 0 0;
+  text-decoration:none;
+  color:#555;
+  background:url(../images/arr-sm.jpg) no-repeat right;
+  font-size:.8em;
+}
+
+.page-taxonomy h2.node-title a:hover {
+  background:url("../images/arr-sm-hover.jpg") no-repeat 100% 50%;
+  opacity:1;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+}
+*/
+
+/* absolute anchor over nodes */
+.page-taxonomy h2.node-title {
+  width:100%;
+  display:block;
+  height:45px;
+}
+
+.page-taxonomy h2.node-title a {
+  position:absolute;
+  width:225px;
+  height:138px;
+  top:0;
+  left:0;
+  text-decoration:none;
+  color:#555;
+  background:url(../images/arr-sm.jpg) no-repeat 200px 8px;
+  font-size:.8em;
+  padding:7px 0 0 9px;
+  z-index:1;
+  border:#e0e0e0 solid 9px;
+}
+
+
+.page-taxonomy h2.node-title a:hover {
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  background-image:url("../images/arr-sm-hover.jpg");
+  border:#e0e0e0 solid 9px;
 }
 
 .taxonomy-term-description p {
@@ -1271,95 +1353,79 @@ ul.links li {
   margin:0;
 }
 
-.page-taxonomy .node {
-  width:245px !important;
+.not-front.page-taxonomy-term .node {
+  position:relative;
+  width:252px;
   height:162px;
   float:left;
-  margin-left:10px;
-  margin-right:10px;
-  margin-bottom:15px !important;
-  position:relative;
+  margin:0 7px 16px 9px;
 }
 
-.page-taxonomy .node img {
-  border:#f1f1f1 solid 9px;
+.not-front.page-taxonomy-term .node:hover {
+  background:#fff;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
 }
 
-.page-taxonomy .node:hover img {
-  border-color:#f38;
+.not-front.page-taxonomy-term .node:hover {
 }
 
-.not-front.page-taxonomy-term #content #block-system-main .node {
-  position:relative;
+.not-front.page-taxonomy-term .node .node-title,
+.not-front.page-taxonomy-term .node .field-name-body,
+.not-front.page-taxonomy-term .node .field-name-field-cat {
+  opacity:0;
 }
 
-.not-front.page-taxonomy-term #content .node .content {
+/* hover */
+.not-front.page-taxonomy-term .node:hover .node-title,
+.not-front.page-taxonomy-term .node:hover .field-name-body,
+.not-front.page-taxonomy-term .node:hover .field-name-field-cat {
+  opacity:1;
+}
+
+/* thumb cat list */
+
+.not-front.page-taxonomy-term #content .node .content .field-name-field-cat .field-items {
   position:absolute;
-  top:0;
-  left:0;
-  z-index:0;
-  width:250px;
-  height:250px;
+  width:100%;
+  bottom:16px;
+  left:16px;
 }
 
+.not-front.page-taxonomy-term #content .node .content .field-name-field-cat .field-item {
+  float:left;
+  margin-right:.25em;
+  border-radius:5px;
+  background-color:#eee;
+  color:#aaa;
+  padding:0px .75em 0px;
+  font-size:.75em;
+  line-height: 1.75em;
+}
+
+/* thumb paragraphs */
 .not-front.page-taxonomy-term #content .node .content .field.field-name-body p {
-  
+  padding:0;
+  margin:0;
+  position:absolute;
+  top:41px;
+  left:18px;
+  padding-right:16px;
+  font-size:.9em;  
+  line-height:1.5em;
 }
 
+.not-front.page-taxonomy-term #content .node .content .field.field-name-body p:after {
+  content:"...";
+}
+
+/* thumbnail images */
 .not-front.page-taxonomy-term #content .node .content .field.field-name-field-thumb-big {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
-}
-
-/*
-.page-taxonomy .node:hover img {
-  box-shadow: 0px 0px 20px rgba(100, 100, 100, 0.5)
-}
-*/
-.page-taxonomy h2.node-title {
-  position:absolute;
-  width:233px;
-  background:#fff;
-  top:0;
-  left:0;
-  z-index:-1;
-}
-
-.page-taxonomy h2.node-title a {
-  padding-bottom:10px;
-  padding-top:13px;
-  padding-left:13px;
-  padding-right:30px;
-  width:190px;
-  height:121px;
-  text-decoration:none;
-  color:#555;
-  display:block;
-  background-image:url(../images/arr-sm.jpg);
-  background-repeat:no-repeat;
-  background-position:200px 13px;
-  background-color:#fff;
-  font-size:14px;
-  position:absolute;
-  left:9px;
-  bottom:9px;
-  opacity:0;
-}
-
-.page-taxonomy .node a:hover {
-  -webkit-transition: all 200ms linear;
-  -o-transition: all 200ms linear;
-  -moz-transition: all 200ms linear;
-}
-
-.page-taxonomy .node:hover h2.node-title a {
-  background:url("../images/arr-sm-hover.jpg") no-repeat scroll 200px 12px #fff;
-  opacity:1;
-  -webkit-transition: all 200ms linear;
-  -o-transition: all 200ms linear;
-  -moz-transition: all 200ms linear;
+  z-index: -2;
 }
 
 .node:hover .field-item {
@@ -1410,6 +1476,11 @@ ul.links li {
   padding-right:.5em;
   width:auto;
   font-weight:normal;
+  line-height: 1.3em;
+}
+
+.region-sidebar-first .block .content ul li {
+  font-size:1em;
 }
 
 .page-taxonomy .region-sidebar-first h2.block-title:after {
@@ -1418,12 +1489,16 @@ ul.links li {
 
 /*
  *
- * Skills thumbnails
+ * Skills pages
  *
  *
  */
 
 .section-skills .region-sidebar-first {
+  margin-bottom:0;
+}
+
+.section-skills .region-sidebar-first .block-views {
   margin-bottom:0;
 }
 
